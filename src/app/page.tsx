@@ -1,8 +1,12 @@
+import Navbar from "@/components/shared/Navbar";
 
 export default function Home() {
   return (
-    <main className="">
-      main content
-    </main>
+    <>
+      <Navbar />
+      <main className="">
+        main content
+      </main>
+    </>
   );
 }
