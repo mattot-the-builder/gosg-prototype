@@ -42,19 +42,49 @@ export default function Navbar() {
                         <NavigationMenuItem>
                             <Link href="/" legacyBehavior passHref>
                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    Laman Utama
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    Panduan
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    Perkhidmatan Digital
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                    Penyertaan Rakyat
+                                </NavigationMenuLink>
+                            </Link>
+                        </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/" legacyBehavior passHref>
+                                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                     Carian
                                 </NavigationMenuLink>
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <NavigationMenuTrigger>Sumber</NavigationMenuTrigger>
-                            <NavigationMenuContent className="flex flex-col px-4 py-2 text-nowrap">
-                                <NavigationMenuLink>
-                                    <a href="#">Direktori Agensi</a>
-                                </NavigationMenuLink>
-                                <NavigationMenuLink>
-                                    <a href="#b">Inisiatif Kerajaan</a>
-                                </NavigationMenuLink>
+                            <NavigationMenuContent>
+                                <div className="flex flex-col px-4 py-2 text-nowrap">
+                                    <NavigationMenuLink>
+                                        <a href="#">Direktori Agensi</a>
+                                    </NavigationMenuLink>
+                                    <NavigationMenuLink>
+                                        <a href="#b">Inisiatif Kerajaan</a>
+                                    </NavigationMenuLink>
+                                </div>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                     </NavigationMenuList>
